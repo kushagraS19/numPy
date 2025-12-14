@@ -7,7 +7,7 @@ print(arr)
 
 # By default value -->
 
-arr1 = np.zeros(3) # For One-dimensional array
+arr1 = np.zeros(10) # For One-dimensional array
 print(arr1)
 
 # With default value -> 1 
