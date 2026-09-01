@@ -4,6 +4,7 @@
 import numpy as np
 
 arr = np.array([1.5,6.7,7.8,4.6])
+print(arr.dtype)
 int_arr = arr.astype(int)
 
 print(int_arr)

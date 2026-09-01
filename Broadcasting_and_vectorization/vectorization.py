@@ -4,5 +4,8 @@
 import numpy as np
 
 arr = np.array([10,20,30])
-multi = arr * 3
+multi = arr ** 3
 print(multi)
+
+sum = np.add(4,5)
+print(sum)

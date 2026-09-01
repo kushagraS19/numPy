@@ -10,5 +10,6 @@ import numpy as np
 arr = np.array([[1,2,3],[4,5,6]])
 print(arr)
 
-print(arr.ravel())
-print(arr.flatten())
+arr_2 = arr.flatten()
+arr_2[2] = 56
+print(arr_2)

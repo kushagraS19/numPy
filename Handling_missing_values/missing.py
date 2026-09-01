@@ -20,8 +20,9 @@ print(np.isnan(arr))
 # np.nan_to_num(array, nan = vo value jisse replace karna hai (default = 0))
 
 arr2 =np.array([1,2,np.nan , 4, 5, np.nan])
-clean = np.nan_to_num(arr2)
+clean = np.nan_to_num(arr2, nan = 5)
 print(clean)
+
 
 #____________________________________________________________________________________________________________
 
@@ -31,7 +32,7 @@ print(clean)
 # A value which exeeds the limit of numbers in py is called infinite values.
 # For ex -> 100^1000 , 1 / 0
 
-ar6 = np.array([1,2,np.inf,6,8,np.inf])
+ar6 = np.array([1,2,np.inf,6,8,np.inf,np.inf])
 
 print(np.isinf(ar6))
 

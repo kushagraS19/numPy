@@ -17,5 +17,5 @@ print(arr2)
 
 # By full function --> 
 
-arr3 = np.full((2,2),7)
+arr3 = np.full((80,80),7)
 print(arr3)
